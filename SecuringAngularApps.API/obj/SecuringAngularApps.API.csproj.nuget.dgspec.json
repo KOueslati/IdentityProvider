@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\MyWorkSpaces\\NgSecurity\\demo\\after\\SecuringAngularApps.API\\SecuringAngularApps.API\\SecuringAngularApps.API.csproj": {}
+  },
+  "projects": {
+    "C:\\MyWorkSpaces\\NgSecurity\\demo\\after\\SecuringAngularApps.API\\SecuringAngularApps.API\\SecuringAngularApps.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MyWorkSpaces\\NgSecurity\\demo\\after\\SecuringAngularApps.API\\SecuringAngularApps.API\\SecuringAngularApps.API.csproj",
+        "projectName": "SecuringAngularApps.API",
+        "projectPath": "C:\\MyWorkSpaces\\NgSecurity\\demo\\after\\SecuringAngularApps.API\\SecuringAngularApps.API\\SecuringAngularApps.API.csproj",
+        "packagesPath": "C:\\Users\\s841340\\.nuget\\packages\\",
+        "outputPath": "C:\\MyWorkSpaces\\NgSecurity\\demo\\after\\SecuringAngularApps.API\\SecuringAngularApps.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\s841340\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\UnderwritingWorkSpace\\P18001_UnderwritingEcosystem_Sprint13\\nuget-privatePackageSource": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "IdentityServer4.AccessTokenValidation": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.4, )"
+            },
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.6, )"
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "System.Runtime.Serialization.Json": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

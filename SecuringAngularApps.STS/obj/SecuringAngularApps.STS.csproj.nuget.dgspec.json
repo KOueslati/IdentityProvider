@@ -1,0 +1,106 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\MyWorkSpaces\\NgSecurity\\demo\\after\\SecuringAngularApps.API\\SecuringAngularApps.STS\\SecuringAngularApps.STS.csproj": {}
+  },
+  "projects": {
+    "C:\\MyWorkSpaces\\NgSecurity\\demo\\after\\SecuringAngularApps.API\\SecuringAngularApps.STS\\SecuringAngularApps.STS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MyWorkSpaces\\NgSecurity\\demo\\after\\SecuringAngularApps.API\\SecuringAngularApps.STS\\SecuringAngularApps.STS.csproj",
+        "projectName": "SecuringAngularApps.STS",
+        "projectPath": "C:\\MyWorkSpaces\\NgSecurity\\demo\\after\\SecuringAngularApps.API\\SecuringAngularApps.STS\\SecuringAngularApps.STS.csproj",
+        "packagesPath": "C:\\Users\\s841340\\.nuget\\packages\\",
+        "outputPath": "C:\\MyWorkSpaces\\NgSecurity\\demo\\after\\SecuringAngularApps.API\\SecuringAngularApps.STS\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\s841340\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\UnderwritingWorkSpace\\P18001_UnderwritingEcosystem_Sprint13\\nuget-privatePackageSource": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "IdentityModel": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "IdentityServer4": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "IdentityServer4.AspNetIdentity": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
